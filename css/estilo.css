@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: black;
+}
+@font-face {
+    font-family: "zen";
+    src: url(../assets/fonts/ZenDots-Regular.ttf);
+}
+
+@font-face {
+    font-family: "narrow";
+    src: url(../assets/fonts/PTSansNarrow-Regular.ttf);
+}
+
+
+header {
+    position: sticky;
+}
+.navbar {
+    background-color: rgba(75, 73, 73, 0.534);
+    position: sticky;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: white;
+    font-family: "zen";
+}
+
+.navbar-brand:hover {
+    color: green;
+}
+
+.bi:hover {
+    border: 5px;
+}
+
+.card {
+    background-color: black;
+}
+
+.card-title {
+    font-family: "zen";
+    color: white;
+
+}
+
+.card-text {
+    font-family: "zen";
+    color: white;
+    
+}
+
+.btn {
+    color: white;
+    background-color: green;
+    font-family: "narrow";
+    margin-bottom: 10px;
+    
+}
+
+.lfooter {
+    font-family: "zen";
+    color: white;
+}
+
+.form-label {
+    font-family: "narrow";
+    color: white;
+
+}
+
+.contacto {
+    font-family: "narrow";
+    font-size: 20px;
+    color: white;
+    
+}
+
+.card-img-top {
+    height: 350px;
+}
+
+.card-img-top:hover {
+    border: 5px solid black;
+}
+
+
+@media only screen and (max-width:767px) {
+    .card-img-top {
+        height: 300px;
+    }
+}
