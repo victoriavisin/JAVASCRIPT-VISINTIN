@@ -66,6 +66,62 @@ header {
     
 }
 
+.offcanvas {
+    background-color: black;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.offcanvas-header {
+    background-color: rgba(75, 73, 73, 0.534);
+    font-family: "narrow";
+    text-align: center;
+}
+
+.offcanvas-body img {
+    width: 200px;
+    height: 200px;
+     position: absolute;
+    position: relative; 
+    right: -70px;
+
+}
+
+.card-title-item {
+    font-size: 20px;
+}
+
+.text-item {
+    font-size: 15px;
+}
+
+.cantidad-item {
+    font-size: 15px;
+}
+ #boton-eliminar {
+    font-size: 15px;
+ }
+.offcanvas-footer {
+    font-family: "narrow";
+    text-align: center;
+
+}
+
+    
+
+
+.btn-add-cart  {
+    color: white;
+    background-color: green;
+    font-family: "narrow";
+    margin-bottom: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    
+
+}
+
 .lfooter {
     font-family: "zen";
     color: white;
