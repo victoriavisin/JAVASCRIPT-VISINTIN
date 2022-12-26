@@ -1,4 +1,4 @@
- productos = [
+ listadoDeProductos = [
 
     {
        id: 1,
